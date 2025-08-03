@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Digital-Library/static/css/main.5f23f709.css",
+    "main.js": "/Digital-Library/static/js/main.4d0fc691.js",
+    "static/media/WEB.jpg": "/Digital-Library/static/media/WEB.e4d448b22ec21f209d7c.jpg",
+    "static/media/headerimage.avif": "/Digital-Library/static/media/headerimage.44d4da784badc9af97c4.avif",
+    "static/media/DSA1.jpg": "/Digital-Library/static/media/DSA1.d33bdefeec1da1abd710.jpg",
+    "static/media/Robert William Wood.jpg": "/Digital-Library/static/media/Robert William Wood.5d918fe5143ff20d1683.jpg",
+    "static/media/DSA2.jpg": "/Digital-Library/static/media/DSA2.eb4bbad9e30858aa9664.jpg",
+    "static/media/Negociation.jpg": "/Digital-Library/static/media/Negociation.c5ebb3d649fa83ce83da.jpg",
+    "static/media/MT Cicero.jpg": "/Digital-Library/static/media/MT Cicero.9e75079f616ffc144e90.jpg",
+    "static/media/AI.jpg": "/Digital-Library/static/media/AI.90b84e74e884bcb19fb4.jpg",
+    "static/media/Dolls.jpg": "/Digital-Library/static/media/Dolls.b5731ba365bd513a24e4.jpg",
+    "index.html": "/Digital-Library/index.html",
+    "main.5f23f709.css.map": "/Digital-Library/static/css/main.5f23f709.css.map",
+    "main.4d0fc691.js.map": "/Digital-Library/static/js/main.4d0fc691.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f23f709.css",
+    "static/js/main.4d0fc691.js"
+  ]
+}
