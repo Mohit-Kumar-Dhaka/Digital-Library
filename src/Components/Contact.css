@@ -1,0 +1,77 @@
+/* Entire Contact section */
+.Conatct {
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #f0f4ff, #e1ecff);
+  text-align: center;
+}
+
+/* Header inside the contact section */
+.Contact-Main {
+  margin-bottom: 3rem;
+}
+
+.Contact-Main h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.Contact-Main p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Form */
+.ContactUs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ContactUs input,
+.ContactUs textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.7rem;
+  outline: none;
+  background-color: white;
+  transition: border 0.3s ease;
+}
+
+.ContactUs input:focus,
+.ContactUs textarea:focus {
+  border-color: #007bff;
+}
+
+/* Textarea resizing and height */
+.ContactUs textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+/* Submit button */
+.ContactUs button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 2rem;
+}
+
+.ContactUs button:hover {
+  background-color: #0056b3;
+}

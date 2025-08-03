@@ -1,0 +1,21 @@
+.Header{
+  background-image: url("headerimage.avif");
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.Header h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-shadow:  2px 2px 5px rgba(0,0,0,0.3);;
+}
+.Header p{
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #f0f0f0;
+}

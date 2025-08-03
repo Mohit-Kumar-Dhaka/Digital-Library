@@ -1,0 +1,97 @@
+.Main2 {
+  padding: 3rem 1rem;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.Main2 h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
+.Main2 h1::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #ff6b6b;
+  margin: 0.5rem auto 0;
+  border-radius: 4px;
+}
+
+
+.Main2-books {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.Main2-books-grid {
+  width: 250px;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Main2-books-grid:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.Main2-books-grid img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.Main2-books-grid a {
+  display: block;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  background: linear-gradient(to right, #ff9a9e, #fad0c4); /* Soft gradient */
+  border-radius: 12px;
+  padding: 0.75rem 1.2rem;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.Main2-books-grid a:hover {
+  background: linear-gradient(to right, #fcb69f, #ffecd2); /* lighter gradient */
+  color: #333;
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.Main2-books-grid h3 {
+  font-size: 1.1rem;
+  margin: 0.8rem 0 0.3rem;
+  color: #333;
+}
+
+.Main2-books-grid h4 {
+  font-size: 0.95rem;
+  color: #777;
+  margin-bottom: 0.6rem;
+}
+
+.Main2-books-grid i {
+  color: #f39c12;
+  font-size: 1rem;
+  margin: 0 2px;
+}

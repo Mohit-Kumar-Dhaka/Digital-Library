@@ -1,0 +1,115 @@
+.SearchBooks {
+  padding: 4rem 2rem;
+   background-color: #f9fafb; 
+  text-align: center;
+  min-height: 100vh;
+}
+
+.SearchBooks h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.SearchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+
+.SearchBar input {
+  padding: 0.9rem 1.2rem;
+  width: 300px;
+  font-size: 1rem;
+  border-radius: 0.6rem;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.SearchBar input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+
+.SearchBar button {
+  padding: 0.9rem 1.5rem;
+  font-size: 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.SearchBar button:hover {
+  background: #0056b3;
+}
+
+
+.SearchResults {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Individual book card */
+.BookCard {
+  background: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 180px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.BookCard:hover {
+  transform: translateY(-5px);
+}
+
+/* Book image */
+.BookCard img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+/* Book title */
+.BookCard h4 {
+  font-size: 1rem;
+  color: #333;
+  margin: 0.6rem 0 0.3rem;
+}
+
+/* Book authors */
+.BookCard p {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* Preview link */
+.BookCard a {
+  display: inline-block;
+  padding: 12px 32px;
+  margin-top: 15px;
+  background: linear-gradient(to right, #fca5a5, #f87171);
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  text-decoration: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.BookCard a:hover {
+  background: linear-gradient(to right, #f87171, #ef4444);
+  transform: translateY(-2px);
+}

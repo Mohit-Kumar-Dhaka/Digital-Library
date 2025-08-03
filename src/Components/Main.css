@@ -1,0 +1,42 @@
+.Main{
+  background-color: #f9f9f9;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+.Main h1{
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #333;;
+}
+.Main-book-type{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.Main-book-type{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 0 1rem;
+}
+.Main-book-type-divs{
+  background-color: #e3f2fd;
+  color: #333;
+  padding: 12px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.Main-book-type-divs:hover{
+  background-color: #bbdefb;
+  transform: scale(1.05);
+}
